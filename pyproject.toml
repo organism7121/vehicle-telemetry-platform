@@ -1,5 +1,5 @@
 [project]
-name = "can-data-pipeline"
+name = "vehicle-telemetry-platform"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -8,14 +8,13 @@ authors = [
 ]
 requires-python = ">=3.14"
 dependencies = [
-    "asammdf>=8.8.28",
     "cantools>=45.1.0",
-    "matplotlib>=3.11.2",
     "pandas>=3.1.0",
+    "websockets>=17.3",
 ]
 
 [project.scripts]
-main = "can_data_pipeline:main"
+vehicle-telemetry-platform = "vehicle_telemetry_platform:main"
 
 [build-system]
 requires = ["uv_build>=0.13.0,<0.14.0"]
