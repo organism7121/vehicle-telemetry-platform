@@ -1,13 +1,14 @@
 [project]
 name = "vehicle-telemetry-platform"
 version = "0.1.0"
-description = "Add your description here"
+description = "Aims to make sense of CAN bus data."
 readme = "README.md"
 authors = [
     { name = "organism7121", email = "alxjandro.g@icloud.com" }
 ]
 requires-python = ">=3.14"
 dependencies = [
+    "asammdf>=8.8.32",
     "cantools>=45.1.0",
     "pandas>=3.1.0",
     "websockets>=17.3",
