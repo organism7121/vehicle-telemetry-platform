@@ -1,16 +1,16 @@
 [project]
 name = "vehicle-telemetry-platform"
 version = "0.1.0"
-description = "Aims to make sense of CAN bus data."
+description = "CAN bus data pipeline"
 readme = "README.md"
-authors = [
-    { name = "organism7121", email = "alxjandro.g@icloud.com" }
-]
+
 requires-python = ">=3.14"
 dependencies = [
     "asammdf>=8.8.32",
     "cantools>=45.1.0",
     "pandas>=3.1.0",
+    "psycopg2-binary>=2.9.13",
+    "python-dotenv>=1.2.4",
     "websockets>=17.3",
 ]
 
